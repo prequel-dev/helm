@@ -2,8 +2,22 @@ apiVersion: v1
 entries:
   prequel-collector:
   - apiVersion: v2
+    appVersion: 0.12.11
+    created: "2025-06-11T11:35:01.046596038-05:00"
+    dependencies:
+    - name: nats
+      repository: https://nats-io.github.io/k8s/helm/charts/
+      version: 1.1.9
+    description: A Helm chart for Kubernetes
+    digest: f8d5ec9c3a00efaf46a137078c1317c23bf0e51d554af63898d34b4e8e8b76ed
+    name: prequel-collector
+    type: application
+    urls:
+    - prequel-collector-0.12.11.tgz
+    version: 0.12.11
+  - apiVersion: v2
     appVersion: 0.12.10
-    created: "2025-06-09T14:13:47.223167376-05:00"
+    created: "2025-06-11T11:35:01.042875962-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -17,7 +31,7 @@ entries:
     version: 0.12.10
   - apiVersion: v2
     appVersion: 0.12.9
-    created: "2025-06-09T14:13:47.244344288-05:00"
+    created: "2025-06-11T11:35:01.074669713-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -31,7 +45,7 @@ entries:
     version: 0.12.9
   - apiVersion: v2
     appVersion: 0.12.8
-    created: "2025-06-09T14:13:47.241543065-05:00"
+    created: "2025-06-11T11:35:01.071002095-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -45,7 +59,7 @@ entries:
     version: 0.12.8
   - apiVersion: v2
     appVersion: 0.12.7
-    created: "2025-06-09T14:13:47.239685291-05:00"
+    created: "2025-06-11T11:35:01.066542252-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -59,7 +73,7 @@ entries:
     version: 0.12.7
   - apiVersion: v2
     appVersion: 0.12.6
-    created: "2025-06-09T14:13:47.237820103-05:00"
+    created: "2025-06-11T11:35:01.062846922-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -73,7 +87,7 @@ entries:
     version: 0.12.6
   - apiVersion: v2
     appVersion: 0.12.5
-    created: "2025-06-09T14:13:47.234775564-05:00"
+    created: "2025-06-11T11:35:01.058982826-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -87,7 +101,7 @@ entries:
     version: 0.12.5
   - apiVersion: v2
     appVersion: 0.12.4
-    created: "2025-06-09T14:13:47.231205449-05:00"
+    created: "2025-06-11T11:35:01.055027629-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -101,7 +115,7 @@ entries:
     version: 0.12.4
   - apiVersion: v2
     appVersion: 0.12.3
-    created: "2025-06-09T14:13:47.228352069-05:00"
+    created: "2025-06-11T11:35:01.052144543-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -115,7 +129,7 @@ entries:
     version: 0.12.3
   - apiVersion: v2
     appVersion: 0.12.2
-    created: "2025-06-09T14:13:47.22570281-05:00"
+    created: "2025-06-11T11:35:01.049589051-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -129,7 +143,7 @@ entries:
     version: 0.12.2
   - apiVersion: v2
     appVersion: 0.12.1
-    created: "2025-06-09T14:13:47.221329639-05:00"
+    created: "2025-06-11T11:35:01.039980432-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -143,7 +157,7 @@ entries:
     version: 0.12.1
   - apiVersion: v2
     appVersion: 0.11.5
-    created: "2025-06-09T14:13:47.219433614-05:00"
+    created: "2025-06-11T11:35:01.037087016-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -157,7 +171,7 @@ entries:
     version: 0.11.5
   - apiVersion: v2
     appVersion: 0.11.4
-    created: "2025-06-09T14:13:47.216474795-05:00"
+    created: "2025-06-11T11:35:01.03310044-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -171,7 +185,7 @@ entries:
     version: 0.11.4
   - apiVersion: v2
     appVersion: 0.11.3
-    created: "2025-06-09T14:13:47.213551453-05:00"
+    created: "2025-06-11T11:35:01.030185454-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -185,7 +199,7 @@ entries:
     version: 0.11.3
   - apiVersion: v2
     appVersion: 0.11.1
-    created: "2025-06-09T14:13:47.210644111-05:00"
+    created: "2025-06-11T11:35:01.02730355-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -199,7 +213,7 @@ entries:
     version: 0.11.1
   - apiVersion: v2
     appVersion: 0.10.6
-    created: "2025-06-09T14:13:47.20814789-05:00"
+    created: "2025-06-11T11:35:01.024497998-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -213,7 +227,7 @@ entries:
     version: 0.10.6
   - apiVersion: v2
     appVersion: 0.10.5
-    created: "2025-06-09T14:13:47.204851758-05:00"
+    created: "2025-06-11T11:35:01.021278732-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -227,7 +241,7 @@ entries:
     version: 0.10.5
   - apiVersion: v2
     appVersion: 0.10.4
-    created: "2025-06-09T14:13:47.202034446-05:00"
+    created: "2025-06-11T11:35:01.018422616-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -241,7 +255,7 @@ entries:
     version: 0.10.4
   - apiVersion: v2
     appVersion: 0.10.3
-    created: "2025-06-09T14:13:47.199226119-05:00"
+    created: "2025-06-11T11:35:01.015796601-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -255,7 +269,7 @@ entries:
     version: 0.10.3
   - apiVersion: v2
     appVersion: 0.10.2
-    created: "2025-06-09T14:13:47.196708548-05:00"
+    created: "2025-06-11T11:35:01.012991692-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -269,7 +283,7 @@ entries:
     version: 0.10.2
   - apiVersion: v2
     appVersion: 0.10.1
-    created: "2025-06-09T14:13:47.194577251-05:00"
+    created: "2025-06-11T11:35:01.011349211-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -283,7 +297,7 @@ entries:
     version: 0.10.1
   - apiVersion: v2
     appVersion: 0.9.9
-    created: "2025-06-09T14:13:47.32194964-05:00"
+    created: "2025-06-11T11:35:01.142085425-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -297,7 +311,7 @@ entries:
     version: 0.9.9
   - apiVersion: v2
     appVersion: 0.9.8
-    created: "2025-06-09T14:13:47.31806201-05:00"
+    created: "2025-06-11T11:35:01.139540713-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -311,7 +325,7 @@ entries:
     version: 0.9.8
   - apiVersion: v2
     appVersion: 0.9.7
-    created: "2025-06-09T14:13:47.314455907-05:00"
+    created: "2025-06-11T11:35:01.137354743-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -325,7 +339,7 @@ entries:
     version: 0.9.7
   - apiVersion: v2
     appVersion: 0.9.5
-    created: "2025-06-09T14:13:47.309979633-05:00"
+    created: "2025-06-11T11:35:01.134677593-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -339,7 +353,7 @@ entries:
     version: 0.9.5
   - apiVersion: v2
     appVersion: 0.9.4
-    created: "2025-06-09T14:13:47.306130786-05:00"
+    created: "2025-06-11T11:35:01.130987183-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -353,7 +367,7 @@ entries:
     version: 0.9.4
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2025-06-09T14:13:47.302503744-05:00"
+    created: "2025-06-11T11:35:01.125754059-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -367,7 +381,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 0.9.1
-    created: "2025-06-09T14:13:47.298584544-05:00"
+    created: "2025-06-11T11:35:01.122142376-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -381,7 +395,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2025-06-09T14:13:47.295164801-05:00"
+    created: "2025-06-11T11:35:01.118610804-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -395,7 +409,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.8.23
-    created: "2025-06-09T14:13:47.293393119-05:00"
+    created: "2025-06-11T11:35:01.114631602-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -409,7 +423,7 @@ entries:
     version: 0.8.23
   - apiVersion: v2
     appVersion: 0.8.22
-    created: "2025-06-09T14:13:47.291546355-05:00"
+    created: "2025-06-11T11:35:01.111594026-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -423,7 +437,7 @@ entries:
     version: 0.8.22
   - apiVersion: v2
     appVersion: 0.8.21
-    created: "2025-06-09T14:13:47.288715016-05:00"
+    created: "2025-06-11T11:35:01.109034055-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -437,7 +451,7 @@ entries:
     version: 0.8.21
   - apiVersion: v2
     appVersion: 0.8.18
-    created: "2025-06-09T14:13:47.28550695-05:00"
+    created: "2025-06-11T11:35:01.106427407-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -451,7 +465,7 @@ entries:
     version: 0.8.18
   - apiVersion: v2
     appVersion: 0.8.16
-    created: "2025-06-09T14:13:47.282251665-05:00"
+    created: "2025-06-11T11:35:01.10402428-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -465,7 +479,7 @@ entries:
     version: 0.8.16
   - apiVersion: v2
     appVersion: 0.8.14
-    created: "2025-06-09T14:13:47.279006249-05:00"
+    created: "2025-06-11T11:35:01.101002764-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -479,7 +493,7 @@ entries:
     version: 0.8.14
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2025-06-09T14:13:47.275232252-05:00"
+    created: "2025-06-11T11:35:01.098521601-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -493,7 +507,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.7.11
-    created: "2025-06-09T14:13:47.258019112-05:00"
+    created: "2025-06-11T11:35:01.086513373-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -507,7 +521,7 @@ entries:
     version: 0.7.26
   - apiVersion: v2
     appVersion: 0.7.11
-    created: "2025-06-09T14:13:47.254780309-05:00"
+    created: "2025-06-11T11:35:01.083946059-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -521,7 +535,7 @@ entries:
     version: 0.7.12
   - apiVersion: v2
     appVersion: 0.7.11
-    created: "2025-06-09T14:13:47.251502773-05:00"
+    created: "2025-06-11T11:35:01.081026023-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -535,7 +549,7 @@ entries:
     version: 0.7.11
   - apiVersion: v2
     appVersion: 0.7.10
-    created: "2025-06-09T14:13:47.248206862-05:00"
+    created: "2025-06-11T11:35:01.078326691-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -549,7 +563,7 @@ entries:
     version: 0.7.10
   - apiVersion: v2
     appVersion: 0.7.9
-    created: "2025-06-09T14:13:47.271286472-05:00"
+    created: "2025-06-11T11:35:01.096099349-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -563,7 +577,7 @@ entries:
     version: 0.7.9
   - apiVersion: v2
     appVersion: 0.7.7
-    created: "2025-06-09T14:13:47.268212879-05:00"
+    created: "2025-06-11T11:35:01.094045548-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -577,7 +591,7 @@ entries:
     version: 0.7.7
   - apiVersion: v2
     appVersion: 0.7.5
-    created: "2025-06-09T14:13:47.26492363-05:00"
+    created: "2025-06-11T11:35:01.091202757-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -591,7 +605,7 @@ entries:
     version: 0.7.5
   - apiVersion: v2
     appVersion: 0.7.4
-    created: "2025-06-09T14:13:47.261800153-05:00"
+    created: "2025-06-11T11:35:01.088896712-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -605,7 +619,7 @@ entries:
     version: 0.7.4
   - apiVersion: v2
     appVersion: 0.5.2
-    created: "2025-06-09T14:13:47.244957608-05:00"
+    created: "2025-06-11T11:35:01.075085092-05:00"
     description: A Helm chart for Kubernetes
     digest: f0940702b44e5d84ac8fac6e647951804c53875f84179aa1e12b00e661ae7b14
     name: prequel-collector
@@ -615,7 +629,7 @@ entries:
     version: 0.5.2
   - apiVersion: v2
     appVersion: 0.1.23
-    created: "2025-06-09T14:13:47.190224508-05:00"
+    created: "2025-06-11T11:35:01.007723322-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -629,7 +643,7 @@ entries:
     version: 0.1.23
   - apiVersion: v2
     appVersion: 0.1.22
-    created: "2025-06-09T14:13:47.187957778-05:00"
+    created: "2025-06-11T11:35:01.004617989-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -643,7 +657,7 @@ entries:
     version: 0.1.22
   - apiVersion: v2
     appVersion: 0.1.21
-    created: "2025-06-09T14:13:47.186318734-05:00"
+    created: "2025-06-11T11:35:01.001826043-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -657,7 +671,7 @@ entries:
     version: 0.1.21
   - apiVersion: v2
     appVersion: 0.1.20
-    created: "2025-06-09T14:13:47.184620129-05:00"
+    created: "2025-06-11T11:35:00.999656254-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -671,7 +685,7 @@ entries:
     version: 0.1.20
   - apiVersion: v2
     appVersion: 0.1.19
-    created: "2025-06-09T14:13:47.182378294-05:00"
+    created: "2025-06-11T11:35:00.997043494-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -685,7 +699,7 @@ entries:
     version: 0.1.19
   - apiVersion: v2
     appVersion: 0.1.18
-    created: "2025-06-09T14:13:47.180623904-05:00"
+    created: "2025-06-11T11:35:00.995264929-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -699,7 +713,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: 0.1.17
-    created: "2025-06-09T14:13:47.17887261-05:00"
+    created: "2025-06-11T11:35:00.993437222-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -713,7 +727,7 @@ entries:
     version: 0.1.17
   - apiVersion: v2
     appVersion: 0.1.16
-    created: "2025-06-09T14:13:47.177043781-05:00"
+    created: "2025-06-11T11:35:00.991525637-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -727,7 +741,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: 0.1.15
-    created: "2025-06-09T14:13:47.174618122-05:00"
+    created: "2025-06-11T11:35:00.989099588-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -741,7 +755,7 @@ entries:
     version: 0.1.15
   - apiVersion: v2
     appVersion: 0.1.14
-    created: "2025-06-09T14:13:47.171610903-05:00"
+    created: "2025-06-11T11:35:00.987494458-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -755,7 +769,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 0.1.13
-    created: "2025-06-09T14:13:47.169731729-05:00"
+    created: "2025-06-11T11:35:00.985776396-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -769,7 +783,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 0.1.12
-    created: "2025-06-09T14:13:47.167142473-05:00"
+    created: "2025-06-11T11:35:00.983055233-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -783,7 +797,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 0.1.11
-    created: "2025-06-09T14:13:47.164247384-05:00"
+    created: "2025-06-11T11:35:00.980239974-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -797,7 +811,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 0.1.10
-    created: "2025-06-09T14:13:47.161279368-05:00"
+    created: "2025-06-11T11:35:00.97764648-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -811,7 +825,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 0.1.9
-    created: "2025-06-09T14:13:47.192411289-05:00"
+    created: "2025-06-11T11:35:01.009689589-05:00"
     dependencies:
     - name: nats
       repository: https://nats-io.github.io/k8s/helm/charts/
@@ -823,4 +837,4 @@ entries:
     urls:
     - prequel-collector-0.1.9.tgz
     version: 0.1.9
-generated: "2025-06-09T14:13:47.157427685-05:00"
+generated: "2025-06-11T11:35:00.974846379-05:00"
